@@ -23,6 +23,12 @@ public class AlgorimoOrdenacao {
 
            }
 
+           case  4->{
+
+               return ordernar(new QuickSort(), vetor, auxiliar);
+
+           }
+
 
            default -> {
 

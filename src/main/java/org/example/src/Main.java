@@ -16,14 +16,13 @@ public class Main {
 
         int aux=0;
         int numero;
-        Integer[] vetor= new Integer[10];
-
+        Integer[] vetor= new Integer[1000000]; //mudar pra integer
 
         System.out.println("Antes da ordenação:\n");
 
         for (int i = 0; i < vetor.length; i++) {
 
-            numero= aleatorio.nextInt(36);
+            numero= aleatorio.nextInt(3689);
 
             vetor[i]= numero;
 
@@ -31,7 +30,8 @@ public class Main {
 
         }
 
-        algorimoOrdenacao.executar(3, vetor, aux);
+          algorimoOrdenacao.executar(4, vetor, aux);
+
 
 
         System.out.println("\n\nDepois da ordenação:\n");
@@ -46,4 +46,12 @@ public class Main {
 
 
     }
+
+
+
+
+
+
+
+
 }
